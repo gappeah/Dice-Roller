@@ -1,4 +1,4 @@
-# Dice Simulation 
+# Dice Roller 
 
 This Python application creates a visually appealing dice roller with a single button. It utilizes the customtkinter and tkinter library for an enhanced user interface.
 
