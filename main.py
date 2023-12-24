@@ -1,24 +1,23 @@
 import random
 import customtkinter
 #Creating a class for the GUI window with customertkinter
-class App(customtkinter.CTk):
-    def __init__(self):
-        super().__init__()
-        self.geometry("750x300")
 
-        self.button = customtkinter.CTkButton(self, text="Roll the dice", command=self.button_callbck)
-        self.button.pack(padx=20, pady=20)
-    
-        self.label = customtkinter.CTkLabel(App, text="", font=("time", 50))
-    
-    
-    def roll(self):
-        number =['\2680', '\2681', '\2682', '\2683', '\2684', '\2685']
-        return random.randint(1, 6)
-        
+app = customtkinter.CTk()
+app.geometry("700x700")
 
-    def button_callbck(self):
-        print("Dice rolled")
+Label = customtkinter.CTkLabel(app, text="", font=("Arial", 300))
 
-app = App()
+def roll():
+    number = random.randint(1,6)
+    Label.configure(text=number)
+    Label.pack(padx=20, pady=20)    
+def button_callback():
+    print("Die roll")
+
+button = customtkinter.CTkButton(app, text="Roll die...",fg_color=("#DB3E39", "#821D1A"),hover_color="green",height=50, width=100,anchor="center", command=roll)
+button.pack(padx=20, pady=20)
+
 app.mainloop()
+
+
+
