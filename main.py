@@ -1,12 +1,11 @@
 import random
 import customtkinter
 import tkinter as tk
-#Creating a class for the GUI window with customertkinter and tkinter
+#Creating a GUI window with customertkinter and tkinter
 
 app = customtkinter.CTk()
 app.geometry("500x700")
 app.title("Dice Roller")
-
 
 label_sub = customtkinter.CTkLabel(master=app, text="Press the button to roll the die:", font=('Arial', 20))
 label_sub.place(relx=0.5, rely=0.12, anchor=tk.CENTER)
