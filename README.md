@@ -14,7 +14,7 @@ This Python application creates a visually appealing dice roller with a single b
 
 ## Technologies Used
 
-* Python: Programming language for the application logic.
+* Python: A programming language for the application logic.
 * customtkinter: Library for creating visually appealing GUI elements.
 *  tkinter: Python's standard GUI library, used in conjunction with customtkinter.
 * random: Module for generating random numbers.
