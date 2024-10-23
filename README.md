@@ -1,17 +1,29 @@
-# Predicting Ethereum Price with Python and Machine Learning
+# Predicting Solana Price Forecasting with LSTM and SARIMA
 
-This project predicts the future price of Ethereum using historical data and a machine-learning approach. It leverages LSTM (Long Short-Term Memory) neural networks, a type of recurrent neural network well-suited for time-series forecasting, to model and predict Ethereum prices.
+This project predicts the future price of Solana using historical data using a hybrid approach of combining  LSTM (Long Short-Term Memory) neural networks, a type of recurrent neural network well-suited for time-series forecasting and SARIMA or Seasonal ARIMA, (Seasonal Autoregressive Integrated Moving Average) is an extension of ARIMA that explicitly supports univariate time series data with a seasonal component. It adds three new hyperparameters to specify the autoregression (AR), differencing (I) and moving average (MA) for the seasonal component of the series, as well as an additional parameter for the period of the seasonality. to model and predict Ethereum prices.
+
 
 ## Project Overview
-
 The primary objective of this project is to predict Ethereum prices using historical data. The model is trained using an LSTM network and the data consists of Ethereum prices from August 2015 to September 2024. The predictions are evaluated using metrics such as **Mean Squared Error (MSE)**, **R-squared (R²)**, **Root Mean Squared Error (RMSE)**, **Mean Absolute Error (MAE)** and **Accuracy** (though accuracy is unconventional in regression tasks, it is also computed here).
 
 ### Key Features
+- Ensemble Prediction Model
+- LSTM (Long Short-Term Memory) neural networks
+- SARIMA (Seasonal ARIMA) statistical modeling
+- Optimised weight combination for ensemble predictions
 
-- Utilises LSTM for time-series forecasting.
-- Preprocesses Ethereum price data and splits it into training and testing sets.
-- Evaluates the model based on error metrics such as MSE and R².
-- Visualises actual vs. predicted Ethereum prices.
+
+- Advanced Technical Indicators
+- Simple Moving Averages (7-day and 30-day)
+- Relative Strength Index (RSI)
+- Moving Average Convergence Divergence (MACD)
+- Volatility metrics
+- Price momentum indicators
+
+- Market Sentiment Analysis
+- Bitcoin correlation tracking
+- Market trend indicators
+- Volume analysis
 
 ## What is Ethereum 
 ![images](https://github.com/user-attachments/assets/9af1cd8b-f9ec-45fb-8e3e-69c382497165)
