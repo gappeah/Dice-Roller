@@ -25,11 +25,12 @@ The primary objective of this project is to predict Ethereum prices using histor
 - Market trend indicators
 - Volume analysis
 
-## What is Ethereum 
-![images](https://github.com/user-attachments/assets/9af1cd8b-f9ec-45fb-8e3e-69c382497165)
-* Ethereum is a decentralised, global platform that uses blockchain technology to enable the creation of digital applications and currencies.
-* It's known for its native cryptocurrency, ether (ETH), and is often mentioned alongside Bitcoin as a leader in the cryptocurrency and blockchain space. 
-* Developers can build and deploy decentralised applications (DApps) through the use of smart contracts. It was proposed by Vitalik Buterin in 2013 and officially launched on July 30, 2015.
+## What is Solana 
+![5cc0b99a8dd84fbfa4e150d84b5531f2](https://github.com/user-attachments/assets/cb231575-9409-4692-895e-ec7ad6fde6c7)
+* Solana is a decentralized computer network that uses a blockchain database to record transactions and manage the currency. The individual unit of Solana is called a sol.
+* Solana uses a proof-of-stake (PoS) mechanism and a proof-of-history (PoH) mechanism to improve on the traditional PoS blockchain. PoH uses hashed timestamps to verify when transactions occur.
+* Solana can power smart contracts, decentralized finance apps, NFTs, and more. It claims to be able to process 50,000 transactions per second.
+* Solana was created by Anatoly Yakovenko and Raj Gokal founded Solana Labs in 2018 and launched Solana in 2020.
 
 ### Blockchain Architecture
 Ethereum operates on a blockchain, which is a distributed ledger technology that records transactions in a secure and immutable manner. Each block in the Ethereum blockchain contains a cryptographic hash of the previous block, creating a chain that ensures data integrity. This architecture allows for a decentralized network where no single entity has control over the entire blockchain.
